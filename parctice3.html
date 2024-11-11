@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+</html>
+<script>
+
+ 
+   
+   function convertTemperature(degrees,units){
+
+    function convertToCelsius(Fahrenheit){
+    return (Fahrenheit-32) * 5/9;
+   }
+
+    function convertToFahrenheit(celsius){
+    return (celsius *  9/5)+32;
+   }
+
+
+    if(units==='celsius'){
+      return convertToFahrenheit(degrees);
+     }
+     else{
+      return convertToFahrenheit(degrees);
+     }
+   }
+
+   console.log(convertTemperature(25,'celsius'));
+   console.log(convertTemperature(86,'Fahrenheit'))
+
+</script>
